@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script async src="./index.js"></script>
+    <title>APIS</title>
+  </head>
+  <body>
+    <form class="header">
+      <input
+        class="input"
+        name="search"
+        type="text"
+        placeholder="Lavarropas..."
+      />
+      <button class="button" style="cursor: pointer">Buscar</button>
+    </form>
+    <main class="main">
+      <h2 class="h2-resultado"></h2>
+      <div class="articles"></div>
+    </main>
+    <template class="template-resultado">
+      <a href="" class="link-ml">
+        <img class="img-product" src="" alt="img-product" />
+        <div class="div-product-data">
+          <h3 class="name-product"></h3>
+          <p class="condition"></p>
+          <p class="sold"></p>
+        </div>
+        <div class="div-price">
+          <p class="price"></p>
+        </div>
+      </a>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: yellow;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 375px;
+  height: 44px;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  width: 121px;
+  font-weight: 700;
+  height: 44px;
+  margin-left: 14px;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #000000;
+}
+.main {
+  max-width: 510px;
+  margin: 0 auto;
+}
+
+.h2-resultado {
+  margin: 17px 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.div-product-data {
+  margin: 16px 0 16px 4px;
+  width: 280px;
+}
+.img-product {
+  width: 119px;
+  height: 128px;
+}
+
+.name-product,
+.condition,
+.sold,
+.price {
+  margin: 0;
+}
+
+.name-product,
+.price {
+  font-weight: 700;
+}
+
+.name-product {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.condition {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 4px;
+}
+
+.sold {
+  margin-top: 44px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.div-price {
+  margin-top: 16px;
+}
+
+.link-ml {
+  display: flex;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+}
